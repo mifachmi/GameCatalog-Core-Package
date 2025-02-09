@@ -46,4 +46,3 @@ public class SearchCorePresenter<
             .disposed(by: _disposeBag)
     }
 }
-
