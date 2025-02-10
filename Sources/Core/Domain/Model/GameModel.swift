@@ -44,8 +44,16 @@ public struct GameModel: Equatable, Identifiable {
 
 public struct Genre: Equatable {
     public let name: String?
+    
+    public init(name: String?) {
+        self.name = name
+    }
 }
 
 public struct Publisher: Equatable {
     public let name: String?
+    
+    public init(name: String?) {
+        self.name = name
+    }
 }
